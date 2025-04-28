@@ -1,0 +1,9 @@
+move the turtle upward by pressing the up key.
+- create a turtle object
+- turn the turtle facing upward
+- create a function that moves the turtle upward using the onkey method
+
+create moving cars that moves from right to left
+- create cars using the number of colours available
+- randomly create number of turtles and assign colours
+- 
