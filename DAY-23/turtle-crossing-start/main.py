@@ -12,10 +12,7 @@ screen.listen()
 player = Player()
 car = CarManager()
 score = Scoreboard()
-# car2 = CarManager()
-# car3 = CarManager()
-# car4 = CarManager()
-# car5 = CarManager()
+
 screen.onkey(player.move_up, "Up")
 
 game_is_on = True
@@ -34,9 +31,6 @@ while game_is_on:
         player.next_stage()
         car.level_up()
         score.increase_score()
-
-    # car.multiple_cars()
-
 
     
 
